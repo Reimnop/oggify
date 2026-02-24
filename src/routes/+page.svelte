@@ -271,7 +271,7 @@
               disabled={isProcessingQueue || !fileQueue.some((i) => i.status === "done")}
               onclick={downloadAllAsZip}
             >
-              Download ZIP
+              Download all
             </Button>
           </div>
         </section>
