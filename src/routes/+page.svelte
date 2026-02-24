@@ -27,7 +27,6 @@
   let fileQueue: QueuedFile[] = $state([]);
 
   onMount(async () => {
-    console.log("123123123");
     ffmpeg = new FFmpeg();
 
     const baseURL = "https://cdn.jsdelivr.net/npm/@ffmpeg/core-mt@0.12.10/dist/esm";
